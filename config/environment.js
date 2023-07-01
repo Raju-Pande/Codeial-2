@@ -20,7 +20,7 @@ const development = {
     name: 'development',
     asset_path: '/assets',
     session_cookie_key: "blahSomething",
-    db: 'Manual_Authenction',
+    db: process.env.MONGO_URL,
     smtp: {
         service: 'gmail',
         host: 'smtp.gmail.com',
@@ -48,7 +48,7 @@ const production = {
     name: 'production',
     asset_path: process.env.ASSET_PATH,
     session_cookie_key: process.env.SESSION_COOKIE_KEY,
-    db: process.env.DB,
+    db: process.env.MONGO_URL,
     smtp: {
         service: 'gmail',
         host: 'smtp.gmail.com',
