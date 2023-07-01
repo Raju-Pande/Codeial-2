@@ -313,3 +313,11 @@
 ::1 - - [01/Jul/2023:11:12:37 +0000] "GET /css/home.css HTTP/1.1" 404 151 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
 ::1 - - [01/Jul/2023:11:12:38 +0000] "GET /js/home_post_comments.js HTTP/1.1" 404 163 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
 ::1 - - [01/Jul/2023:11:12:38 +0000] "GET /js/chat_engine.js HTTP/1.1" 404 156 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+[0mGET / [32m200[0m 739.378 ms - 6146[0m
+[0mGET / [36m304[0m 1694.771 ms - -[0m
+[0mGET /user/profile/64a00145aeb8b6c8b2dec267 [36m302[0m 3.659 ms - 70[0m
+[0mGET /user/sign-in [32m200[0m 3.354 ms - 2487[0m
+[0mGET /user/auth/google [36m302[0m 3.666 ms - 0[0m
+[0mGET /user/auth/google/callback?code=4%2F0AZEOvhWTJL2LgLgBAZcv__PggGwSP3xW1FQOZKXHb4Td0yo-ZPeVpSUWYwvklxkf0bdUSA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent [36m302[0m 746.512 ms - 46[0m
+[0mGET / [32m200[0m 879.232 ms - 8449[0m
+[0mGET / [32m200[0m 1341.854 ms - 8064[0m

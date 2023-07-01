@@ -53,7 +53,7 @@ const MongoStore = require("connect-mongo");
 
 // SASS
 //SCSS/SASS FILE required
-const sassMiddleware = require("node-sass-middleware");
+// const sassMiddleware = require("node-sass-middleware");
 
 // Flash
 //now need to show some notification the user connect-flash
@@ -74,16 +74,16 @@ console.log('chat server is listening on port 5000');
 const path = require("path");
 //deployment
 //we don't want to run everyTime in production MODE,so we did...
-if (env.name == 'development') {
-    app.use(sassMiddleware({
-        src: path.join(__dirname, env.asset_path, 'scss'),
-        dest: path.join(__dirname, env.asset_path, 'css'),
-        debug: true,
-        outputStyle: 'extended',
-        prefix: '/css'
-    })
-    )
-}
+// if (env.name == 'development') {
+//     app.use(sassMiddleware({
+//         src: path.join(__dirname, env.asset_path, 'scss'),
+//         dest: path.join(__dirname, env.asset_path, 'css'),
+//         debug: true,
+//         outputStyle: 'extended',
+//         prefix: '/css'
+//     })
+//     )
+// }
 
 //middleWare
 app.use(express.urlencoded({ extended: false }));   //body-parser deprecated undefined extended: provide extended option
